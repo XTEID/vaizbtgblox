@@ -110,7 +110,7 @@ TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(-1.62999044e-07, 0, 0.753766, 0)
 TextLabel.Size = UDim2.new(0.999999404, 0, 0.0652066618, 0)
 TextLabel.Font = Enum.Font.Unknown
-TextLabel.Text = "KENZIE'S CHEAT"
+TextLabel.Text = "vaizbtg"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -358,90 +358,11 @@ TextLabel_3.TextWrapped = true
 UICorner_16.CornerRadius = UDim.new(0, 12)
 UICorner_16.Parent = TextLabel_3
 
-ChatFrame.Name = "ChatFrame"
-ChatFrame.Parent = MainFrame
-ChatFrame.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-ChatFrame.BackgroundTransparency = 0.150
-ChatFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ChatFrame.BorderSizePixel = 0
-ChatFrame.Position = UDim2.new(-0.558150589, 0, -3.68641047e-08, 0)
-ChatFrame.Size = UDim2.new(0, 202, 0, 412)
 
-UICorner_17.CornerRadius = UDim.new(0, 11)
-UICorner_17.Parent = ChatFrame
 
-ChatInput.Name = "ChatInput"
-ChatInput.Parent = ChatFrame
-ChatInput.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-ChatInput.BackgroundTransparency = 0.150
-ChatInput.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ChatInput.BorderSizePixel = 0
-ChatInput.Position = UDim2.new(0.00495049497, 0, 0.936893225, 0)
-ChatInput.Size = UDim2.new(0, 173, 0, 27)
-ChatInput.ClearTextOnFocus = false
-ChatInput.Font = Enum.Font.Unknown
-ChatInput.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-ChatInput.Text = "type here.."
-ChatInput.TextColor3 = Color3.fromRGB(255, 255, 255)
-ChatInput.TextScaled = true
-ChatInput.TextSize = 14.000
-ChatInput.TextWrapped = true
-
-UICorner_18.CornerRadius = UDim.new(0, 12)
-UICorner_18.Parent = ChatInput
-
-SendButton.Name = "SendButton"
-SendButton.Parent = ChatFrame
-SendButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-SendButton.BackgroundTransparency = 0.150
-SendButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SendButton.BorderSizePixel = 0
-SendButton.Position = UDim2.new(0.891089082, 0, 0.936893225, 0)
-SendButton.Size = UDim2.new(0, 20, 0, 26)
-SendButton.Font = Enum.Font.FredokaOne
-SendButton.Text = ">"
-SendButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-SendButton.TextScaled = true
-SendButton.TextSize = 6.000
-SendButton.TextWrapped = true
-
-UICorner_19.CornerRadius = UDim.new(0, 12)
-UICorner_19.Parent = SendButton
-
-ChatDisplay.Name = "ChatDisplay"
-ChatDisplay.Parent = ChatFrame
-ChatDisplay.Active = true
-ChatDisplay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ChatDisplay.BackgroundTransparency = 1.000
-ChatDisplay.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ChatDisplay.BorderSizePixel = 0
-ChatDisplay.Position = UDim2.new(0, 0, 0.0606796481, 0)
-ChatDisplay.Size = UDim2.new(0, 202, 0, 354)
-
-UIListLayout.Parent = ChatDisplay
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout.Padding = UDim.new(0, 2)
-
-ClearChatButton.Name = "ClearChatButton"
-ClearChatButton.Parent = ChatFrame
-ClearChatButton.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-ClearChatButton.BackgroundTransparency = 0.150
-ClearChatButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ClearChatButton.BorderSizePixel = 0
-ClearChatButton.Position = UDim2.new(0.00495049497, 0, 0, 0)
-ClearChatButton.Size = UDim2.new(0, 199, 0, 18)
-ClearChatButton.Font = Enum.Font.Unknown
-ClearChatButton.Text = "Clear Chat"
-ClearChatButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-ClearChatButton.TextScaled = true
-ClearChatButton.TextSize = 6.000
-ClearChatButton.TextWrapped = true
-
-UICorner_20.CornerRadius = UDim.new(0, 12)
-UICorner_20.Parent = ClearChatButton
 
 OpenFrame.Name = "OpenFrame"
-OpenFrame.Parent = KenziesCheat
+OpenFrame.Parent vaizbtg
 OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OpenFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OpenFrame.BorderSizePixel = 0
@@ -1546,7 +1467,7 @@ local function WEFBJRH_fake_script() -- WALKSPEEDBox.LocalScript
 	-- Function to apply WalkSpeed
 	local function setWalkSpeed(value)
 		local speed = tonumber(value)
-		if speed and speed >= 16 and speed <= 500 then
+		if speed and speed >= 16 and speed <= 600 then
 			local character = player.Character or player.CharacterAdded:Wait()
 			local humanoid = character:FindFirstChildOfClass("Humanoid")
 			if humanoid then
@@ -1554,7 +1475,7 @@ local function WEFBJRH_fake_script() -- WALKSPEEDBox.LocalScript
 				showNotifier("WalkSpeed set to " .. speed)
 			end
 		else
-			showNotifier("Invalid WalkSpeed! (16–500)")
+			showNotifier("Invalid WalkSpeed! (16–600)")
 		end
 	end
 	
@@ -2120,7 +2041,7 @@ local function BRXG_fake_script() -- OpenFrame.MainScript
 	-- Button click handler
 	Button.MouseButton1Click:Connect(function()
 		if firstLoad then
-			showNotifier("WELCOME TO KENZIES CHEATS, LOADING...", false)
+			showNotifier("WELCOME TO VAIZBTG CHEATS, LOADING...", false)
 			openFrame()
 			firstLoad = false
 		else
