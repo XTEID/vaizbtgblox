@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://gist.githubusercontent.com/XTEID/43fc1bfd0672768c303fa720de185b61/raw/a6dc4c9bd1c4acc1039a286daf1de4e379cba776/vaizblox.txt",true))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/XTEID/43fc1bfd0672768c303fa720de185b61/raw/54c2f2ed1b96ea0396db539598540ddab0f77280/vaizblox.txt",true))()
