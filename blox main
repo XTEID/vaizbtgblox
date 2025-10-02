@@ -1,4 +1,3 @@
-
 local vaizbtg = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
