@@ -361,7 +361,7 @@ UICorner_16.Parent = TextLabel_3
 
 
 OpenFrame.Name = "OpenFrame"
-OpenFrame.Parent vaizbtg
+OpenFrame.Parent = vaizbtg
 OpenFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 OpenFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 OpenFrame.BorderSizePixel = 0
