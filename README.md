@@ -1,1 +1,4 @@
 this script to exec blox
+
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/XTEID/43fc1bfd0672768c303fa720de185b61/raw/637c32237132ee85ec22f8156ef2b773d5949bf5/vaizblox.txt",true))()
